@@ -1,0 +1,104 @@
+body {
+  font-family: Arial;
+  background-color: #404040;
+  color: #f2f2f2;
+  margin: 0;
+  width: 100%;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #606060;
+}
+
+.topnav .logo {
+	padding: 3px;
+	padding-bottom: 0px;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #505050;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: #ED7F61;
+  color: white;
+}
+
+.myheader{
+	position: relative;
+	height: 5px;
+	font-size: 80px;
+	text-align: center;
+	text-decoration: none;
+	margin: 0;
+	margin-top:50px;
+	margin-left: 5px;
+}
+
+.mysubheader{
+	position: relative;
+	height: 50px;
+	font-size: 30px;
+	text-align: center;
+	text-decoration: none;
+	margin: 0;
+	margin-top: 80px;
+	margin-left: 185px;
+}
+
+button{
+	background-color: #505050;
+  	color: white;
+	border: none;
+  	text-decoration: none;
+	position: relative:
+	text-align: center;
+  	font-size: 35px;
+  	cursor: pointer;
+	margin-top: 100px;
+	height: 50px;
+	margin-left: 42%;
+	vertical-align:middle;
+	padding: 30px 50px;
+	line-height: 0px;
+}
+
+
+.oraganise {
+	margin-top: 80px;
+	font-size: 35px;
+	height: 100px;
+	text-align: left;
+	list-style-position: inside;	
+}
+
+.headerOrganisations{
+	text-align: left;
+	margin-top: 130px;
+	font-size: 50px;
+	height: 0px;
+}
+
+.headerContact{
+	text-align: center;
+	margin-top : 200px;
+	font-size: 50px;
+	height: 0px;
+}
+
+.contact{
+	text-align: center;
+	font-size: 35px;
+	margin-top: 70px;
+}
