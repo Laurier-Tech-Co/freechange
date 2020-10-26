@@ -4,6 +4,8 @@ https://github.com/Laurier-Tech-Co
 Freechange project
 https://github.com/Laurier-Tech-Co/freechange.github.io
 
+Github Pages
+https://laurier-tech-co.github.io/freechange/
 
 Juan
 300173810
