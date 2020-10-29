@@ -6,119 +6,151 @@ body {
     width: 100%;
   }
   
-  .topnav {
-    overflow: hidden;
-    background-color: #606060;
-  }
+.topnav {
+  overflow: hidden;
+  background-color: #606060;
+}
   
-  .topnav .logo {
-      padding: 3px;
-      padding-bottom: 0px;
-  }
+.topnav .logo {
+  padding: 3px;
+  padding-bottom: 0px;
+}
   
-  .topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
   
-  .topnav a:hover {
-    background-color: #505050;
-    color: white;
-  }
+.topnav a:hover {
+  background-color: #505050;
+  color: white;
+}
   
-  .topnav a.active {
-    background-color: #ED7F61;
-    color: white;
-  }
+.topnav a.active {
+  background-color: #ED7F61;
+  color: white;
+}
   
-  .myheader{
-      position: relative;
-      height: 5px;
-      font-size: 80px;
-      text-align: center;
-      text-decoration: none;
-      margin: 0;
-      margin-top:50px;
-      margin-left: 5px;
-  }
+.myheader{
+  position: relative;
+  height: 5px;
+  font-size: 80px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0;
+  margin-top:50px;
+  margin-left: 5px;
+}
   
-  .mysubheader{
-      position: relative;
-      height: 50px;
-      font-size: 30px;
-      text-align: center;
-      text-decoration: none;
-      margin: 0;
-      margin-top: 80px;
-      margin-left: 185px;
-  }
+.mysubheader{
+  position: relative;
+  height: 50px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0;
+  margin-top: 80px;
+  margin-left: 185px;
+}
   
-  button{
-      background-color: #505050;
-        color: white;
-      border: none;
-        text-decoration: none;
-      position: relative:
-      text-align: center;
-        font-size: 35px;
-        cursor: pointer;
-      margin-top: 100px;
-      height: 50px;
-      margin-left: 42%;
-      vertical-align:middle;
-      padding: 30px 50px;
-      line-height: 0px;
-  }
+button{
+  background-color: #505050;
+  color: white;
+  border: none;
+  text-decoration: none;
+  position: relative;
+  text-align: center;
+  font-size: 35px;
+  cursor: pointer;
+  margin-top: 100px;
+  height: 50px;
+  margin-left: 42%;
+  vertical-align:middle;
+  padding: 30px 50px;
+  line-height: 0px;
+}
   
   
-  .oraganise {
-      margin-top: 80px;
-      font-size: 35px;
-      height: 100px;
-      text-align: left;
-      list-style-position: inside;	
-  }
+.oraganise {
+  margin-top: 80px;
+  font-size: 35px;
+  height: 100px;
+  text-align: left;
+  list-style-position: inside;	
+}
   
-  .headerOrganisations{
-      text-align: left;
-      margin-top: 130px;
-      font-size: 50px;
-      height: 0px;
-  }
+.headerOrganisations{
+  text-align: left;
+  margin-top: 130px;
+  font-size: 50px;
+  height: 0px;
+}
   
-  .headerContact{
-      text-align: center;
-      margin-top : 200px;
-      font-size: 50px;
-      height: 0px;
-  }
+.headerContact{
+  text-align: center;
+  margin-top : 200px;
+  font-size: 50px;
+  height: 0px;
+}
   
-  .contact{
-      text-align: center;
-      font-size: 35px;
-      margin-top: 70px;
-  }
+.contact{
+  text-align: center;
+  font-size: 35px;
+  margin-top: 70px;
+}
 
-  .pretitle_header {
-      position: relative;
-      text-align: left;
-      font-size: 40px;
-      padding: 0;
-      margin: 0;
-      margin-top: 10px;
-      margin-left: 50px;
-  }
+.pretitle_header {
+  position: relative;
+  text-align: left;
+  font-size: 40px;
+  padding: 0;
+  margin: 0;
+  margin-top: 10px;
+  margin-left: 50px;
+}
 
-  .title_header {
-    position: relative;
-    text-align: left;
-    font-size: 80px;
-    margin: 0;
-    padding: 0;
-    margin-left: 10px;
-    margin-top: -20px;
+.title_header {
+  position: relative;
+  text-align: left;
+  font-size: 80px;
+  margin: 0;
+  padding: 0;
+  margin-left: 10px;
+  margin-top: -20px;
+}
+
+.box_text {
+  font-size:35px;
+  color:black;
+}
+
+.blocks {
+  background-color: #ED7F61;
+  width: 100%;
+  padding: 20px;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+  
+.modal-content {
+  background-color:white;
+  margin: 5% auto 5%; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid  #ED7F61;
+  width: 80%; /* Could be more or less, depending on screen size */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
